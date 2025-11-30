@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { ArrowLeft, Lock, ShieldAlert, Terminal, AlertTriangle, CheckCircle, Info, RefreshCw, Key, Database, Server } from 'lucide-react';
 
@@ -19,7 +20,7 @@ const Admin: React.FC<AdminProps> = ({ onBack }) => {
     // Simulate network delay
     setTimeout(() => {
       // Hardcoded password for demo purposes
-      if (password === 'admin') {
+      if (password === 'bugsarefree') {
         setIsAuthenticated(true);
       } else {
         setError('Invalid credentials');
@@ -258,3 +259,4 @@ const Admin: React.FC<AdminProps> = ({ onBack }) => {
 };
 
 export default Admin;
+    
