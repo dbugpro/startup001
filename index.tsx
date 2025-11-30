@@ -76,7 +76,7 @@ const App = () => {
         </h1>
         <p 
           onClick={() => setCurrentView('menu')}
-          className="mt-4 text-lg text-slate-400 font-medium tracking-wide cursor-pointer hover:text-brand-400 transition-colors duration-300"
+          className="mt-4 text-lg text-slate-400 font-medium tracking-wide cursor-pointer hover:text-white hover:[text-shadow:0_0_1px_#fff] transition-all duration-300"
         >
           startup001
         </p>
